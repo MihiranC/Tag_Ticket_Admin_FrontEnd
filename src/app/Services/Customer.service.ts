@@ -31,5 +31,4 @@ export class CustomerService {
     return this.HttpService.getData('api/TagFin/Customer/Select', `code=${code}&firstName=${firstName}&lastName=${lastName}&mobileNo=${mobileNo}&nicNo=${nicNo}&email=${email}&records=${records}`,this.GlobalService.finApiUrl)
   }
 
-  //add sample
 }
